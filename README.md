@@ -1,7 +1,7 @@
 ## CHARITY ROAD
-*A Website for donations in covid health care funds*
+*A Website for donations for EDUCATION FUND FOR NEEDY*
 
-[Click Here to View Website](https://charity-road-tsf.herokuapp.com/)
+[Click Here to View Website](https://charity-funds.herokuapp.com/)
 
 ##### Payement Gateway used : Razorpay
 
