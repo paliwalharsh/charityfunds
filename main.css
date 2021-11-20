@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+#backwave {
+  background: url("abstract-purple-background-with-waves_1302-5960.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1200px;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #e14cf5;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+.about {
+  background: url("purple-waves-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .my-brand {
+    color:#4534aa;
+    font-weight:800;
+    font-family: "Montserrat", sans-serif;
+  } */
+.sub-heading {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.b-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+#navbar-my {
+  padding: 2.5% 11%;
+  /* padding-top: 1%; */
+  margin-top: -150px;
+}
+
+.navbar {
+  padding: 0.5rem 0rem;
+  font-weight: 300;
+}
+
+.navbar-btn {
+  background: #fff;
+  color: #e14cf5;
+  border: none;
+  padding: 8px 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+.navbar-btn:hover {
+  background:#e14cf5;
+  color: #fff;
+}
+#main {
+  padding: 10% 15%;
+  padding-top: 0%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+.btn-explore {
+  color:#e14cf5;
+  border: 1px solid#e14cf5;
+}
+
+.btn-explore:hover {
+  color: rgb(255, 255, 255);
+  background: #e14cf5;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0.5rem;
+}
+
+.card .card-title {
+  position: relative;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+section.bg {
+  background: url("purple-waves-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section > div > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+  font-weight: 700;
+  padding: 10rem;
+}
+section > div > ul > li {
+  margin: 0 20px;
+}
+section > div > ul > li:hover {
+  color: rgb(209, 59, 214);
+}
+section > div > h4 {
+  color: #fff;
+  font-weight: 800;
+}
+@media (max-width: 450px) {
+  section > section > nav > div {
+    display: grid;
+  }
+  section > section > nav > div > div > img {
+    width: 270px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+  }
+  section > div > ul > li {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 50px;
+  }
+  section > div > h4 {
+    font-size: 1rem;
+  }
+  .rp-1 {
+    margin: 50px;
+  }
+  .rp-2 {
+    margin: 30px;
+  }
+}
